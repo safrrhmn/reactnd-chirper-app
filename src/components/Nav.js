@@ -6,7 +6,7 @@ export default function Nav() {
     <nav className="nav">
       <ul>
         <li>
-          <NavLink to="/" exact activeClassName="active">
+          <NavLink to="/reactnd-chirper-app" exact activeClassName="active">
             Home
           </NavLink>
         </li>

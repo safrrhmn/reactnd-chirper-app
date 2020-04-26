@@ -26,13 +26,13 @@ class NewTweet extends Component {
       text: "",
       toHome: id ? false : true,
     }));
-    
+
   };
 
   render() {
     const { text, toHome } = this.state;
     if (toHome === true) {
-      return <Redirect to="/"></Redirect>;
+      return <Redirect to="/reactnd-chirper-app"></Redirect>;
     }
     const tweetLeft = 280 - text.length;
     return (

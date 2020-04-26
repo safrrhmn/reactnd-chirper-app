@@ -20,6 +20,7 @@ class App extends Component {
             <Nav />
             {this.props.loading === true ? null : (
               <div>
+                <Route path="/reactnd-chirper-app" component={Dashboard} />
                 <Route path="/" exact component={Dashboard} />
                 <Route path="/tweet/:id" component={TweetPage} />
                 <Route path="/new" component={NewTweet} />
